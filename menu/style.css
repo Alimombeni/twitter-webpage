@@ -1,0 +1,74 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(10, 71, 240);
+}
+
+.dark-mod {
+    background-color: rgb(24, 24, 24);
+    color: #ccc;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(58, 58, 58);
+    padding-bottom: 2rem;
+    box-shadow: 0.3rem 0.3rem 0.3remrgb(71, 71, 71);
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 15%;
+    height: 2em;
+    font-size: 2rem;
+    color: rgb(112, 112, 112);
+    background-color: rgb(43, 43, 43);
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border: #ccc solid 0px;
+    box-shadow: 0.3rem 0.3rem 0.3remrgb(71, 71, 71);
+}
+
+.menu {
+    display: flex;
+    padding-top: 50px;
+    gap: 120px;
+}
+
+.menu li {
+    display: inline-block;
+    color: rgb(134, 134, 134);
+    font-size: 2rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.card-header {
+    display: ;
+}
+
+.card-body {
+    background-color: blueviolet;
+}
